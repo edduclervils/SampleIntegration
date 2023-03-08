@@ -9,7 +9,7 @@
 name: Java CI with Maven
 
 env:
-  GREETING: $${{secrets.GREETING}}
+  GREETING: ${{secrets.GREETING}}
 
 on:
   push:
